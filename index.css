@@ -1,0 +1,436 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family:"poppins", sans-serif;
+
+}
+.nav1{
+    background-color: rgb(112, 211, 112);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav1 span{
+    padding-left: 1rem;
+    text-decoration:underline;
+    font-size: large;
+}
+.nav2{ 
+    display:flex;
+    flex-direction: row;
+    gap:5rem;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+}
+.nav2 .nav22{ 
+     display: flex;
+     flex-direction: row;
+     justify-content:center;
+     gap:5rem;
+     font-size: larger;   
+}
+.nav2 .nav33{
+    display: flex;
+    flex-direction: row;
+    gap:1rem; 
+    padding-top: 1rem; 
+}
+
+.phase1{
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+
+}
+.phase1 {
+    background-color: rgb(32, 30, 30); 
+    text-decoration: none;
+    color:white;
+    
+}
+.text1{
+    justify-content: center;
+    font-size: large;
+    display: flex;
+    margin: 10rem;
+    flex-direction: column;
+}
+.phase1 .text1 h2{
+    font-size: xx-larger;
+}
+.phase1 img{
+    padding-right:10rem;
+    width:30rem;
+    
+}.phase1 button{
+    background-color:#78bd5c;
+    text-decoration: none;
+    color:white;
+    padding:0.5rem;
+    width:8rem;
+    border-radius: 7px;
+}  
+.phase2{
+    margin:3rem;
+    
+}
+.phase2 .featured{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+   
+   
+}
+.featured div img:nth-child(1){
+  background-color:#F3F5F7;
+
+}
+.phase3 .shopgrid {
+    display:grid;
+    grid-template-columns: repeat(3,2fr);
+    margin:5rem;
+    width:rem;  
+
+}.shopgrid div img{
+   background-color:#F3F5F7; 
+   
+}
+.shopgrid div p{
+    font-size: larger;
+    text-align: center;
+}
+.phase3{
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+}
+.phase5 h2{
+    text-align: center;
+    font-size: x-large;
+    justify-content: center;
+    padding-top: 2rem;
+    
+}
+
+.phase5 .one{ 
+    display: flex;
+    flex-direction:row;
+    gap:2rem;
+    margin-left: 8rem;
+
+}
+.phase5 .junior img{
+    padding-top: 10rem;
+
+}
+.phase5 .one h2{
+    font-size:xx-large;
+    text-align: left;    
+}
+.phase5 .one p{
+    font-size: x-large;
+    text-decoration: underline;
+}
+.phase5 .junior{
+    background-color:#F3F5F7;
+}
+.phase5 .women{
+    background-color:#F3F5F7;
+    margin-top: 2rem; 
+}
+.phase5 .men{
+    background-color:#F3F5F7; 
+}
+
+.phase4{
+    display: flex;
+    flex-direction: row;
+}
+.phase4 .text{
+    background-color:#141718;
+    text-decoration: none;
+    color:white;
+    width:100%;
+    height: 468px;
+    font-size: x-large;
+    padding: 2rem;
+    
+}
+.phase4 .text div p:first-child{ 
+    color:#78bd5c;
+    font-size: xx-large;
+}
+.text .time{
+    color:#141718;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.text .time div span{
+    padding:1rem;
+    background-color: white;
+    text-decoration: none;
+    font-size: xx-large;
+
+}
+.text div button{
+    margin-top: 3rem;
+    width:9rem;
+    padding:6px;
+    background-color: #78bd5c;
+    border-radius: 5px;
+}
+.phase6 h2{
+    /* background-color: #5ae225; */
+    padding-left: 3rem;
+    padding-top: 2rem                       ;
+    font-size:xx-large;
+    
+}
+.phase6 {
+    /* padding-top: 3rem; */
+}
+.phase6 .articles{
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    padding:3rem;
+    justify-content: space-between;
+}
+.phase7{
+    text-align: center;
+    justify-content: center;
+    background-color: #141718;
+    text-decoration:none;
+    color:#F3F5F7;
+    margin:1rem;
+    padding:5rem;
+}
+.phase7 div{
+    display:flex;
+    flex-direction: row;
+    gap: 20rem;
+    justify-content: center;
+    padding-top: 1rem;
+        
+}
+.phase8{
+    display: flex;
+    flex-direction: row;
+    
+}
+.phase9{
+     justify-content: center;
+     text-align: center;
+     gap:3rem;
+     margin-top: 2rem;
+     padding-bottom: 2rem;
+}
+.phase10{
+    background-color: black;
+    text-decoration: none;
+    color:white;
+    display:flex;
+    padding: 5rem;
+    flex-direction:column;
+}
+.phase10 .first div img{ 
+    flex-direction: row;
+    gap:5rem;
+}
+.phase10 .first{ 
+    display: flex;
+    flex-direction: row;
+    gap:13rem;
+    border-bottom: 1px;
+    border-bottom: 1px solid white;
+    padding-bottom: 2rem;
+}
+.phase11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.phase11 .Copyright{
+    display:flex;
+    flex-direction: row;
+    gap:3rem;
+}
+
+
+@media screen and (max-width:768px){
+     .nav1{
+        display:flex;
+        flex-direction: row;
+        
+     }
+     .nav1 span{
+        padding-left:1rem;
+        font-size: larger;
+        text-decoration:line-through;
+        
+     }
+     .nav2{
+        display: flex;
+        flex-direction: row;
+        transform: translateX(-2rem);
+    
+     }
+     .nav2 .nav22{
+        display: flex;
+        flex-direction: row;
+        gap:0.5rem;
+        transform: translateX(-5rem); 
+        font-size:large;   
+    
+     }
+     .nav2 div:nth-child(4){
+        width:9rem;
+        display: flex;
+        flex-direction: row;
+     }
+     .nav22 div{
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+        padding-top: 5px;
+     }
+    .nav2 .nav33{
+        display:none;
+
+     }
+     .phase1{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 26rem;
+        height:10%;
+    }
+     .text1{
+        transform: translateX(-3rem);
+        font-size: larger;
+        width:15rem;
+    }
+    .phase2 .featured{
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+    }
+    .phase3{
+        width:26rem;
+
+    }
+    .phase3 .shopgrid{
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+        gap:3rem;
+        margin-left:25px;
+    }
+    .phase4 div img{
+        width:30rem;
+    }
+    .phase4{
+        display: flex;
+        flex-direction: column;
+    }
+    .phase5 .one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .phase5 .two{
+        display: flex;
+        flex-direction: column  ;
+        grid-template-columns: repeat(1,3fr);
+        align-items: center;
+        width:30rem;
+        /* justify-content: start;        */
+    }
+    .junior{
+        width:32rem;
+    }
+
+    .men, .women{
+        width: 32rem;
+        justify-content: start;
+    }
+    .phase5 .two img{
+        transform: translateX(-7rem);
+    }
+    .phase6 .articles{
+        display: flex;
+        flex-direction: column;
+        margin-left: -1.5rem;
+        gap:2rem;
+    }
+    .phase7{
+        height: 100%;
+        width:59%;
+        justify-content: center;              */ */
+        align-items: center;
+    }
+    .phase7 div{ 
+    
+        gap:5rem;
+        
+    
+    }
+    .phase8{
+        display: flex;
+        flex-direction: column;
+    }
+    .phase10{
+        display: flex;
+    }
+    .phase10 .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+        gap:1rem;
+
+    }
+    .phase11{
+        display: flex;
+        flex-direction: column;        
+    }.phase11 .Copyright{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap:1rem;
+        width:20rem;
+        justify-content: center;
+        transform: translateX(-2rem);
+    }
+    .phase11 .lastimages{
+        display: flex;
+        flex-direction: row;
+        width:20rem;
+        justify-content: space-between;
+        transform: translateX(-2rem);
+        
+    }
+
+
+     
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+}
